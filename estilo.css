@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(151, 215, 250); /* Esto define el color del fondo*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Esto sirve para definir la fuente del texto*/
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    background-color: rgba(255, 172, 46, 0.801);
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3#PrimerHTML {
+    background-color: rgba(85, 190, 0, 0.733);
+    text-align: center;
+}
+
+h3#Charset_link {
+    background-color: rgba(241, 58, 171, 0.733);
+    text-align: center;
+}
+
+h3#Formulario {
+    background-color: rgba(255, 0, 0, 0.596);
+    text-align: center;
+}
+
+p {
+    text-indent: 2rem;
+    text-align: justify;
+}
+
+.img_footer {
+    font-size: 0.75em;
+}
+
+img {
+    margin: 0.5em 1em; /*Esta propiedad define un margen para las imágenes*/
+    border-radius: 0.5em; /*Esta propiedad redondea las esquinas de las imágenes*/
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2); /*Esta propiedad crea un cuadro con las dimensiones y el color deseado. Útil para generar sombras y efectos 3D*/
+}
+
+.img_container {
+    align-content: center;
+    display: flex;
+}
+
+hr {
+    width: 85%;
+}
+
+.page_footer {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(90, 90, 90);
+}
+
