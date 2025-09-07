@@ -4,13 +4,15 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3rem;
     text-align: center;
     background-color: rgba(255, 172, 46, 0.801);
+    font-weight: bold;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 h3#PrimerHTML {
@@ -34,18 +36,20 @@ p {
 }
 
 .img_footer {
-    font-size: 0.75em;
+    text-indent: 0rem;
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: bold;
 }
 
 img {
-    margin: 0.5em 1em; /*Esta propiedad define un margen para las imágenes*/
+    width: 100%;
     border-radius: 0.5em; /*Esta propiedad redondea las esquinas de las imágenes*/
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2); /*Esta propiedad crea un cuadro con las dimensiones y el color deseado. Útil para generar sombras y efectos 3D*/
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2); /*Esta propiedad crea un cuadro con las dimensiones y el color deseado. Útil para generar sombras y efectos 3D*/
 }
 
 .img_container {
-    align-content: center;
-    display: flex;
+    text-align: center;
 }
 
 hr {
@@ -53,8 +57,12 @@ hr {
 }
 
 .page_footer {
-    font-size: 0.7em;
+    font-size: 0.7rem;
     text-align: center;
+}
+
+nav {
+    padding-left: 2rem;
 }
 
 nav a {
@@ -64,5 +72,6 @@ nav a {
 
 nav a:hover {
     color: rgb(90, 90, 90);
+    font-size: 1.1rem;
+    font-weight: bold;
 }
-
